@@ -1,21 +1,12 @@
-# Gereksiz Node.js Dosyaları (En önemlisi bu!)
-node_modules/
-dist/
-build/
-npm-debug.log
+*
+*/
 
-# Python Gereksizleri
-__pycache__/
-*.pyc
-*.pyo
-venv/
-env/
-.env
-
-# Editör Ayar Dosyaları
-.vscode/
-.idea/
-.DS_Store
-
-# Frontend Klasörünü Tamamen Yoksay
-araba-fiyat-frontend/
+# --- SADECE AŞAĞIDAKİLERİ DAHİL ET (İZİN VER) ---
+!analiz.py
+!app.py
+!*.csv
+!Car_Scraping.py
+!data_preprocessing.py
+!model_training.py
+!*.pkl
+!.gitignore

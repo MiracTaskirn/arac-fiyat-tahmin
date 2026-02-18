@@ -1,7 +1,7 @@
 import joblib
 import json
 
-# Encoder dosyanı yükle
+# Encoder dosya yükleme
 encoders = joblib.load('label_encoders.pkl')
 
 sozluk = {}
